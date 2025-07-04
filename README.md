@@ -5,7 +5,7 @@ This helps stop corruption or alerts you to it. Making checking 5 10gb files as 
 --------------------------------------------------
 How to Make the File Scan your Directories
 --------------------------------------------------
-In order to scan your directory of choice go to the 38th line of code or :
+In order to scan your directory of choice go to the 39th line of code or :
 directory_to_check = r'E:\\GithubRepos\\'
 and replace the string E:\\GithubRepos with your real directory, verify that it exists, or else this may lead to crashes or issues until resolved.
 
