@@ -20,6 +20,7 @@ Like This:.
 --------------------------------------------------
 Given the ZERO Trust Security Model (Do not trust always verify) I recommend you do not download my code unless have looked at it yourself, and have verifed that it is safe, since we are all human and make mistakes.
 
-If You find a bug or Security Issue please post it in the issues area. And I will try to solve it as fast as possible or if you have a solution post that as well. Thank You!
-Since these docs could be found inconclusive or hard to understand for certain people, please post it in the issues area.
-
+If You find a bug or Security Issue please post it in the issues area. And I will try to solve it as fast as possible or if you have a solution post that as well. 
+Also since this README.md file could be found inconclusive or hard to understand for certain people not familiar with python or the layout of the code, please post the issue in the issues area.
+Reminder : Read The License file.
+Thank you! And hopefully this code makes checking large amounts of hashes easy!
