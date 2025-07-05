@@ -1,6 +1,9 @@
 # CorruptionDetector
 This is a Python Script that analizes a directory (you have to put this in the code.) and checks an md5 hash database to see whether the files have changed. 
 This helps stop corruption or alerts you to it. Making checking 5 10gb files as easy as a few clicks once automated!
+--------------------------------------------------
+Important! any computer without a lot of ram will struggle since the program puts the files you scan into ram! - we are working on a fix
+--------------------------------------------------
 
 --------------------------------------------------
 How to Make the File (VerifyMD5Hash.py) Scan your Directories
