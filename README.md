@@ -1,6 +1,6 @@
 # CorruptionDetector
 This is a Python Script that analizes a directory (you have to put this in the code.) and checks an md5 hash database to see whether the files have changed. 
-This code helps stop file corruption or alerts you to it, by telling you whether the hashes are the same or different. If different from you original hash, and you have a backed up copy of your data(Not Corrupted) then delete the corrupted one and replace with un-corrupted. This code is making checking 10, 10gb files as easy as a few clicks once automated! This code may just save your Saturday Afternoon(the day I like to check my files)!
+This code helps stop file corruption or alerts you to it, by telling you whether the hashes are the same or different. If different from you original hash, and you have a backed up copy of your data(Not Corrupted) then delete the corrupted one and replace with un-corrupted. This code is making checking 10, 10gb files as easy as a few clicks once automated! This code may just save your Saturday Afternoon!
 
 --------------------------------------------------
 How to Make the File (VerifyMD5Hash.py) Scan your Directories
@@ -16,6 +16,11 @@ First, update Line : 36 (put file name with extensions first then Hash) and onwa
 Like This:.
     'MyPhysicalDigitalMedia.iso' : '640f416675ce157ac0b6645b5a0a03dc',          (Please Note that we do not recommend zipping massive amounts of data for many reasons aim for 20gb or less per file because then it will take forever and don't put all hashes in this program, keep backups of those hashes.)
 
+--------------------------------------------------
+This Code Is Dependent on : 
+Files having the exact same name,
+The Hash Database being correct and
+Putting all your files in one directory, making it a single scan.
 --------------------------------------------------
 Given the ZERO Trust Security Model (Do not trust always verify) I recommend you do not download my code unless have looked at it yourself, and have verifed that it is safe, since we are all human and make mistakes.
 
