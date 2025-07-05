@@ -17,5 +17,5 @@ Like This:.
     'MyPhysicalDigitalMedia.iso' : '640f416675ce157ac0b6645b5a0a03dc',          (Please Note that we do not recommend zipping massive amounts of data for many reasons aim for 20gb or less per file because then it will take forever and don't put all hashes in this program keep backups of those hashes.)
 
 --------------------------------------------------
-Given the ZERO Trust Security Model I recommend you do not download my code unless have looked at it yourself since we are all human and make mistakes.
+Given the ZERO Trust Security Model (Do not trust always verify) I recommend you do not download my code unless have looked at it yourself, and have verifed that it is safe, since we are all human and make mistakes.
 --------------------------------------------------
