@@ -15,3 +15,7 @@ Dictionary - what to update and put ypur files and md5 hashes into.
 First, update Line : 36 (put file name with extensions first then Hash) and onward till you no longer need files to check.
 Like This:.
     'MyPhysicalDigitalMedia.iso' : '640f416675ce157ac0b6645b5a0a03dc',          (Please Note that we do not recommend zipping massive amounts of data for many reasons aim for 20gb or less per file because then it will take forever and don't put all hashes in this program keep backups of those hashes.)
+
+--------------------------------------------------
+Given the ZERO Trust Security Model I recommend you do not download my code unless have looked at it yourself since we are all human and make mistakes.
+--------------------------------------------------
