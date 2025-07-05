@@ -6,9 +6,10 @@ def calculate_md5(filename):
     """Calculates the MD5 hash of a file."""
     try:
         with open(filename, 'rb') as f:
-            file_content = f.read()
-            md5_hash = hashlib.md5(file_content).hexdigest()
-            return md5_hash
+            md5 = hashlib.md5()
+            for chunk in iter(lambda: f.read(8192), b''):
+                md5.update(chunk)
+        return md5.hexdigest()
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found.")
         return None
@@ -36,7 +37,7 @@ hash_database = {
     'FileYouWant.zip': '640f416675ce157ac0b6645b5a0a03dc',
 }
 
-directory_to_check = r'E:\\GithubRepos\\' # use double backslashes for Windows paths this is an example path & for linux use the /media...
+directory_to_check = 'E:\\GithubRepos\\' # use double backslashes for Windows paths this is an example path & for linux use the /media...
 mismatched = check_directory(directory_to_check)
 
 if mismatched:
